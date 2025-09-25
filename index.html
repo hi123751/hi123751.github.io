@@ -19,8 +19,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="mybutton"><a href="#">e</a></button>
-    
+
+
+<a class="bookmarklet button" href="javascript:(function() {
+                var url = window.location.href;
+                var idRegex = /level=([^&amp;]+)/;
+                var match = url.match(idRegex);
+                var secretlevel = '2excahc0w1amrh6t35nwh:1756262969';
+                
+                if (match && match[1] && secretlevel == match[1]) {
+                    var id = match[1];
+                    var newUrl = 'http://grab-tools.live/editor?level=' + secretlevel;
+                    window.location.href = newUrl;
+                } else {
+                    alert('ids dont match.');
+                }
+            })();">EEEEEEEEEEditor</a>
+
+
+
+
+    <button id="mybutton"><a href="#">hurrrrrrrre</a></button>
+    <a class="bookmarklet button" href="javascript:(function() 
+    {  const levelId = "2excahc0w1amrh6t35nwh:1756262969";  
+        const targetWebsite = `https://grab-tools.live/editor?level=${levelId}`;    if (window.location.href.includes(`/levels/viewer/?level=${levelId}`)) {    window.location.href = targetWebsite;  }})();>JSON Editor</a>
     <div class="calculator">
         <input type="text" id="display" readonly>
         <div class="buttons">
@@ -47,3 +69,20 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+<a class="bookmarklet button" href="javascript:(function() {
+                var url = window.location.href;
+                var idRegex = /level=([^&amp;]+)/;
+                var match = url.match(idRegex);
+                var secretlevel = 2excahc0w1amrh6t35nwh:1756262969;
+                
+                if (match &amp;&amp; match[1] &amp;&amp; secretlevel) {
+                    var id = match[1];
+                    var newUrl = 'http://grab-tools.live/editor?level=' + secretlevel;
+                    window.location.href = newUrl;
+                } else {
+                    alert('Could not find level ID in the URL.');
+                }
+            })();">JSON Editor</a>
